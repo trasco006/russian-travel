@@ -1,0 +1,9 @@
+.header__lang-links {
+	position: absolute;
+	top: 46px;
+	right: 46px;
+	list-style-type: none;	
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
