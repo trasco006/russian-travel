@@ -8,7 +8,6 @@
 .place {
 	list-style: none;
 	margin: 0;
-	padding: 0;
 	display: grid	;
 	grid-template-columns: 460px 484px;
 	grid-column-gap: 40px;
@@ -18,7 +17,7 @@
 
 @media (max-width: 1024px) {
 	.place{
-		grid-template-columns: 460px 456px;
+		grid-template-columns: 440px 456px;
 		grid-row-gap: 32px;
 	}
 }
@@ -27,5 +26,13 @@
 	.place{
 		grid-template-columns: 340px 352px;
 		grid-row-gap: 28px;
+	}
+}
+
+@media (max-width: 320px) {
+	.place{
+		grid-template-columns: 320px;
+		grid-column-gap: 32px;
+		padding: 48px 0 0 ;
 	}
 }

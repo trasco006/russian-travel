@@ -32,3 +32,14 @@
 		margin: 0 auto;
 	}
 }
+
+@media (max-width: 320px) {
+	.photo-grid{
+		width: 288px;
+		grid-template-columns: repeat(1, auto);
+		grid-template-rows: repeat(12, auto);
+		grid-row-gap: 12px;
+		grid-column-gap: 12px;
+		margin: 0 auto;
+	}
+}

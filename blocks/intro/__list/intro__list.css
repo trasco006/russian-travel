@@ -16,3 +16,10 @@
 		max-width: 720px;
 	}
 }
+
+@media (max-width: 360px) {
+	.intro__list{
+		width: 288px;
+		margin: 0 auto;
+	}
+}

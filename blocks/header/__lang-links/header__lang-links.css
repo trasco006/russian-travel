@@ -1,9 +1,12 @@
 .header__lang-links {
-	position: absolute;
-	top: 46px;
-	right: 46px;
+	padding-top: 18px;
 	list-style-type: none;	
 	display: inline;
 	margin: 0;
-	padding: 0;
+}
+
+@media (max-width: 320px) {
+	.header__lang-links{ 
+		padding-top: 14px;
+	}
 }

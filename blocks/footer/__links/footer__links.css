@@ -3,4 +3,16 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+
 }
+
+
+@media (max-width: 320px) {
+	.footer__links{
+		flex-direction: column;
+		row-gap: 32px;
+		margin-bottom: 16px;
+	}
+}
+
+

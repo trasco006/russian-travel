@@ -1,7 +1,6 @@
 .lead__title {
 	padding-top: 56px;
 	width: 720px;
-	min-height: 200px;
 	font-family: Inter;
 	font-style: normal;
 	font-weight: 900;
@@ -18,3 +17,14 @@
 		padding-top: 48px;
 	}
 }
+
+
+@media (max-width: 320px) {
+	.lead__title{ 
+		font-weight: 900;
+		font-size: 40px;
+		line-height: 44px;
+		max-width: 288px;
+	}
+}
+
