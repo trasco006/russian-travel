@@ -12,11 +12,23 @@
 
 
 @media (max-width: 1024px) {
-			.photo-grid {
+	.photo-grid {
+		width: 928px;
 		grid-template-columns: repeat(3, auto);
 		grid-template-rows: repeat(4, auto);
 		grid-row-gap: 14px;
 		grid-column-gap: 14px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px) {
+	.photo-grid{
+		width: 720px;
+		grid-template-columns: repeat(2, auto);
+		grid-template-rows: repeat(6, auto);
+		grid-row-gap: 16px;
+		grid-column-gap: 16px;
 		margin: 0 auto;
 	}
 }

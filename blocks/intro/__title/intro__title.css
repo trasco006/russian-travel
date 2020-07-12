@@ -9,3 +9,9 @@
 	color: #FFFFFF;
 	margin: 0;
 }
+
+@media (max-width: 768px) {
+	.intro__title {
+		max-width: 720px;
+	}
+}

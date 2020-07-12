@@ -22,3 +22,10 @@
 		grid-row-gap: 32px;
 	}
 }
+
+@media (max-width: 768px) {
+	.place{
+		grid-template-columns: 340px 352px;
+		grid-row-gap: 28px;
+	}
+}

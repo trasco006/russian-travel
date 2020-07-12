@@ -10,3 +10,9 @@
 	padding: 32px 0 0;
 	list-style-type: none;
 }
+
+@media (max-width: 768px) {
+	.intro__list {
+		max-width: 720px;
+	}
+}

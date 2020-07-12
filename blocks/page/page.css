@@ -10,3 +10,9 @@
 		max-width: 1024px;
 	}
 }
+
+@media (max-width: 768px) {
+	.page{ 
+		max-width: 768px;
+	}
+}

@@ -8,3 +8,11 @@
 	max-width: 984px;
 	margin: 0 auto;
 }	
+
+@media (max-width: 768px) {
+	.intro{
+		max-width: 720px;
+		margin: 0 auto;
+		padding-top: 88px;
+	}
+}
