@@ -14,3 +14,10 @@
 	align-content: center;
 	justify-content: center;
 }
+
+@media (max-width: 1024px) {
+	.cover {
+		max-width: 1024px;
+		height: 640px;
+	}
+}

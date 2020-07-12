@@ -15,3 +15,10 @@
 	grid-row-gap: 48px;
 	padding: 80px 0 0 ;
 }
+
+@media (max-width: 1024px) {
+	.place{
+		grid-template-columns: 460px 456px;
+		grid-row-gap: 32px;
+	}
+}

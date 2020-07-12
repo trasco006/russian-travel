@@ -3,3 +3,9 @@
 	margin: 0 auto;
 	padding: 12px 0 0;
 }
+
+@media (max-width: 1024px) {
+	.places {
+		max-width: 928px;
+	}
+}
