@@ -4,7 +4,7 @@
 
 .cover {
 	position: relative;
-	background-image: url(../../../images/cover/cover__background.png);
+	background-image: url(../../images/cover/cover__background.png);
 	background-size: cover;
 	max-width: 1184px;
 	height: 740px;
