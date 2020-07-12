@@ -1,4 +1,7 @@
 .lead__title {
+	padding-top: 56px;
+	width: 720px;
+	min-height: 200px;
 	font-family: Inter;
 	font-style: normal;
 	font-weight: 900;
@@ -6,5 +9,5 @@
 	line-height: 100px;
 	text-align: center;
 	color: #FFFFFF;
-	margin: 0;
+	margin: 0 auto;
 }
