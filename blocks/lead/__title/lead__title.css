@@ -11,3 +11,10 @@
 	color: #FFFFFF;
 	margin: 0 auto;
 }
+
+
+@media (max-width: 1024px) {
+	.lead__title{ 
+		padding-top: 48px;
+	}
+}
