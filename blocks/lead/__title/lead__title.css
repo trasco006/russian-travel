@@ -1,6 +1,6 @@
 .lead__title {
 	padding-top: 56px;
-	width: 720px;
+	max-width: 73.17%;
 	font-family: Inter;
 	font-style: normal;
 	font-weight: 900;
@@ -9,15 +9,25 @@
 	text-align: center;
 	color: #FFFFFF;
 	margin: 0 auto;
+	word-break: normal;
 }
 
 
 @media (max-width: 1024px) {
 	.lead__title{ 
 		padding-top: 48px;
+		max-width: 77.58%;
 	}
 }
 
+@media (max-width: 768px) {
+	.lead__title{ 
+		padding-top: 48px;
+		max-width: 93.75%;
+		font-size: 12.5vw;
+		line-height: 13vw;
+	}
+}
 
 @media (max-width: 320px) {
 	.lead__title{ 
