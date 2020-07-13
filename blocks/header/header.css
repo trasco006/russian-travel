@@ -5,19 +5,19 @@
 .header {
 	display: flex;
 	justify-content: space-between;
-	max-width: 1184px;
+	max-width: 92.5%;
 	margin: 28px auto 0;
 }
 
 @media (max-width: 1024px) {
 	.header {
-		max-width: 928px;
+		max-width: 90.62%;
 	}
 }
 
 @media (max-width: 768px) {
 	.header{
-		max-width: 720px;
+		max-width: 93.75%;
 	}
 }
 
