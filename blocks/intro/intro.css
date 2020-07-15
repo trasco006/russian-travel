@@ -5,31 +5,29 @@
 
 .intro {
 	padding-top: 92px;
-	max-width: 984px;
+	max-width: 76.87%;
 	margin: 0 auto;
 }	
 
 
 @media (max-width: 1024px) {
 	.intro{
-		width: 690px;
+		max-width: 90.6%;
+		padding-top: 8.59vw;
 		margin: 0 auto;
-		padding-top: 88px;
 	}
 }
 
 @media (max-width: 768px) {
 	.intro{
-		width: 720px;
-		margin: 0 auto;
-		padding-top: 88px;
+		width: 93.75%;
+		padding-top: 11.45vw;
 	}
 }
 
 @media (max-width: 320px) {
 	.intro{
 		width: 288px;
-		margin: 0 auto;
 		padding-top: 64px;
 	}
 }

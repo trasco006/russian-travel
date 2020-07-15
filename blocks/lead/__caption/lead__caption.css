@@ -14,7 +14,7 @@ color: #FFFFFF;
 @media (max-width: 768px) {
 	.lead__caption {
 		position: relative;
-		left: 24px;
+		left: 3.125vw;
 		width: 159px;
 	}
 }

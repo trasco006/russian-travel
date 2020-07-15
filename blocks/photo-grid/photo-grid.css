@@ -2,42 +2,45 @@
 
 .photo-grid {
 	display: grid;
-	max-width: 1184px;
+	max-width: 95.48vw;
 	padding-top: 92px;
 	margin: 0 auto;
-	grid-template-columns: repeat(4, auto);
-	grid-template-rows: repeat(3, auto);
-	grid-gap: 16px;
+	grid-template-columns: repeat(auto-fit, 284px);
+	grid-template-rows: repeat(auto-fit, 213px);
+	grid-column-gap: 1.35%;
+	grid-row-gap: 2.38%;
 }
 
 
 @media (max-width: 1024px) {
 	.photo-grid {
-		width: 928px;
-		grid-template-columns: repeat(3, auto);
-		grid-template-rows: repeat(4, auto);
+		max-width: 90.625vw;
+		grid-template-columns: repeat(auto-fit, 300px);
+		grid-template-rows: repeat(auto-fit, 225px);
 		grid-row-gap: 14px;
 		grid-column-gap: 14px;
+		padding-top: 8.59vw;
 		margin: 0 auto;
 	}
 }
 
 @media (max-width: 768px) {
 	.photo-grid{
-		width: 720px;
-		grid-template-columns: repeat(2, auto);
-		grid-template-rows: repeat(6, auto);
+		max-width: 93.75vw;
+		grid-template-columns: repeat(auto-fit, 352px);
+		grid-template-rows: repeat(auto-fit, 264px);
 		grid-row-gap: 16px;
 		grid-column-gap: 16px;
+		padding-top: 11.45vw;
 		margin: 0 auto;
 	}
 }
 
 @media (max-width: 320px) {
 	.photo-grid{
-		width: 288px;
-		grid-template-columns: repeat(1, auto);
-		grid-template-rows: repeat(12, auto);
+		max-width: 288px;
+		grid-template-columns: repeat(auto-fit, 288px);
+		grid-template-rows: repeat(auto-fit, 216px);
 		grid-row-gap: 12px;
 		grid-column-gap: 12px;
 		margin: 0 auto;

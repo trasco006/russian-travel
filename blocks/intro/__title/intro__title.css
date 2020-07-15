@@ -12,6 +12,6 @@
 
 @media (max-width: 768px) {
 	.intro__title {
-		max-width: 720px;
+		max-width: 100%;
 	}
 }
