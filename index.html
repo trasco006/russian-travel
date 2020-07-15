@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
@@ -11,21 +11,25 @@
 <body>
 	<div class="page">
 
+	<!--Шапка с выбором языка-->
 		<header class="header">
-			<img src="./images/header__logo.svg" alt="logo" class="header__logo">
-			<div class="header__lang-links">
-				<a class="header__lang-link header__lang-link_active">Ru</a>
-				<a class="header__lang-link">En</a>
-			</div>
+			<img src="./images/header__logo.svg" alt="Логотип" class="header__logo">
+			<ul class="header__lang-links">
+				<li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+				<li><a href="#" class="header__lang-link">En</a></li>
+			</ul>
 		</header>
 
+		<main></main>
+<!--Блок с заголовком-->
 		<section class="lead">
 			<h1 class="lead__title">Путешествия по России</h1>
 			<p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-			<img src="./images/lead__image-bg.png" alt="маршрут" id="svg_image" class="lead__image">
+			<img src="./images/lead__image-bg.jpg" alt="маршрут" class="lead__image">
 			<p class="lead__caption">ваша полка — верхняя</p>
 		</section>
 
+<!--Блок Чего мы там не видели-->
 		<section class="intro">
 			<h2 class="intro__title">Чего мы там не видели?</h2>
 			<p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести
@@ -35,33 +39,35 @@
 				мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
 				стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
 			<ul class="intro__list">
-				<li><span class="intro__list_weight_bold">Часовых поясов </span>11</li>
-				<li><span class="intro__list_weight_bold">Объектов природного наследия ЮНЕСКО </span>12</li>
-				<li><span class="intro__list_weight_bold">Объектов культурного наследия ЮНЕСКО </span>16</li>
-				<li><span class="intro__list_weight_bold">Природных заповедников </span>105</li>
-				<li><span class="intro__list_weight_bold">Аэропортов </span>241</li>
+				<li><span class="intro__list intro__list_weight_bold">Аэропортов </span>241</li>
+				<li><span class="intro__list intro__list_weight_bold">Часовых поясов </span>11</li>
+				<li><span class="intro__list intro__list_weight_bold">Объектов природного наследия ЮНЕСКО </span>12</li>
+				<li><span class="intro__list intro__list_weight_bold">Объектов культурного наследия ЮНЕСКО </span>16</li>
+				<li><span class="intro__list intro__list_weight_bold">Природных заповедников </span>105</li>
 			</ul>
 		</section>
-		
-		<div class="photo-grid">
-			<img src="./images/photo-grid/item_1.png" alt="поезд" class="photo-grid__item">
-			<img src="./images/photo-grid/item_2.png" alt="горы" class="photo-grid__item">
-			<img src="./images/photo-grid/item_3.png" alt="волк" class="photo-grid__item">
-			<img src="./images/photo-grid/item_4.png" alt="лес" class="photo-grid__item">
-			<img src="./images/photo-grid/item_5.png" alt="лёд" class="photo-grid__item">
-			<img src="./images/photo-grid/item_6.png" alt="байкал" class="photo-grid__item">
-			<img src="./images/photo-grid/item_7.png" alt="еще горы" class="photo-grid__item">
-			<img src="./images/photo-grid/item_8.png" alt="знак" class="photo-grid__item">
-			<img src="./images/photo-grid/item_9.png" alt="снова горы" class="photo-grid__item">
-			<img src="./images/photo-grid/item_10.png" alt="опять горы" class="photo-grid__item">
-			<img src="./images/photo-grid/item_11.png" alt="еще одна гора" class="photo-grid__item">
-			<img src="./images/photo-grid/item_12.png" alt="ну и еще одна" class="photo-grid__item">
-		</div>
 
+<!--Галерея-->
+		<section class="photo-grid">
+			<img src="./images/photo-grid/item_1.jpg" alt="поезд" class="photo-grid__item">
+			<img src="./images/photo-grid/item_2.jpg" alt="горы" class="photo-grid__item">
+			<img src="./images/photo-grid/item_3.jpg" alt="волк" class="photo-grid__item">
+			<img src="./images/photo-grid/item_4.jpg" alt="лес" class="photo-grid__item">
+			<img src="./images/photo-grid/item_5.jpg" alt="лёд" class="photo-grid__item">
+			<img src="./images/photo-grid/item_6.jpg" alt="байкал" class="photo-grid__item">
+			<img src="./images/photo-grid/item_7.jpg" alt="еще горы" class="photo-grid__item">
+			<img src="./images/photo-grid/item_8.jpg" alt="знак" class="photo-grid__item">
+			<img src="./images/photo-grid/item_9.jpg" alt="снова горы" class="photo-grid__item">
+			<img src="./images/photo-grid/item_10.jpg" alt="опять горы" class="photo-grid__item">
+			<img src="./images/photo-grid/item_11.jpg" alt="еще одна гора" class="photo-grid__item">
+			<img src="./images/photo-grid/item_12.jpg" alt="ну и еще одна" class="photo-grid__item">
+		</section>
+
+<!--Места с картинками-->
 		<ul class="places">
 			<li class="place">
 				<h2 class="place__title">Куршская коса</h2>
-				<img src="./images/places/image_1.png" alt="Куршская коса" class="place__image">
+				<img src="./images/places/image_1.jpg" alt="Куршская коса" class="place__image">
 				<div class="place__website">
 					<p class="place__url-heading">URL</p>
 					<a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
@@ -79,7 +85,7 @@
 
 			<li class="place">
 				<h2 class="place__title">Кольский</h2>
-				<img src="./images/places/image_2.png" alt="Кольский" class="place__image">
+				<img src="./images/places/image_2.jpg" alt="Кольский" class="place__image">
 				<div class="place__website">
 					<p class="place__url-heading">URL</p>
 					<a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National
@@ -98,7 +104,7 @@
 
 			<li class="place">
 				<h2 class="place__title">Алтай</h2>
-				<img src="./images/places/image_3.png" alt="Алтай" class="place__image">
+				<img src="./images/places/image_3.jpg" alt="Алтай" class="place__image">
 				<div class="place__website">
 					<p class="place__url-heading">URL</p>
 					<a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
@@ -117,7 +123,7 @@
 
 			<li class="place">
 				<h2 class="place__title">Зимний Байкал</h2>
-				<img src="./images/places/image_4.png" alt="Зимний Байкал" class="place__image">
+				<img src="./images/places/image_4.jpg" alt="Зимний Байкал" class="place__image">
 				<div class="place__website">
 					<p class="place__url-heading">URL</p>
 					<a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
@@ -136,7 +142,7 @@
 
 			<li class="place">
 				<h2 class="place__title">Карелия</h2>
-				<img src="./images/places/image_5.png" alt="Карелия" class="place__image">
+				<img src="./images/places/image_5.jpg" alt="Карелия" class="place__image">
 				<div class="place__website">
 					<p class="place__url-heading">URL</p>
 					<a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
@@ -152,13 +158,16 @@
 			</li>
 		</ul>
 
+<!--Обложка с эффектом-->
 		<section class="cover">
 			<h2 class="cover__title">До Байкала «на собаках»</h2>
 			<p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на
 				электричках.</p>
 			<div class="cover__overlay"></div>
 		</section>
+		</main>
 
+<!--Подвал-->
 		<footer class="footer">
 			<nav>
 				<ul class="footer__links">
@@ -167,11 +176,11 @@
 					<li> <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
 					<li> <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
 					<li> <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
-
 				</ul>
 			</nav>
 			<div class="footer__copyright">© 2020. Кирилл Сычевник</div>
 		</footer>
+
 	</div>
 
 </body>
