@@ -13,8 +13,7 @@ color: #FFFFFF;
 
 @media (max-width: 768px) {
 	.lead__caption {
-		position: relative;
-		left: 3.125vw;
+		margin-left: 3.125vw;
 		width: 159px;
 	}
 }

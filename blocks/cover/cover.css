@@ -6,6 +6,7 @@
 	position: relative;
 	background-image: url(../../images/cover/cover__background.jpg);
 	background-size: cover;
+	background-position: center center;
 	max-width: 1184px;
 	height: 740px;
 	margin: 92px auto 0;
@@ -13,6 +14,7 @@
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+	text-decoration: none;
 }
 
 @media (max-width: 1024px) {
@@ -25,10 +27,8 @@
 @media (max-width: 768px) {
 	.cover {
 		max-width: 768px;
-		height: 640px;
 	}
 }
-
 
 @media (max-width: 320px) {
 	.cover {
