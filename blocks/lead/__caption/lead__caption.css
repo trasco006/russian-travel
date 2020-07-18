@@ -1,20 +1,19 @@
 .lead__caption {
-margin: 0;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 14px;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-padding-top: 8px;
-color: #FFFFFF;
+  margin: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding-top: 8px;
+  color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
-	.lead__caption {
-		position: relative;
-		left: 24px;
-		width: 159px;
-	}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+    width: 159px;
+  }
 }

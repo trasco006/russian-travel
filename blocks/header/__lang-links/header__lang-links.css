@@ -1,12 +1,12 @@
 .header__lang-links {
-	padding-top: 18px;
-	list-style-type: none;	
-	display: inline;
-	margin: 0;
+  padding-top: 18px;
+  list-style-type: none;
+  display: inline;
+  margin: 0;
 }
 
 @media (max-width: 320px) {
-	.header__lang-links{ 
-		padding-top: 14px;
-	}
+  .header__lang-links {
+    padding-top: 14px;
+  }
 }

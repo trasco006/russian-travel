@@ -1,35 +1,29 @@
 @import url(./__list/intro__list.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
-@import url(./__list/__list_weight/intro__list_weight_bold.css);
-
+@import url(./__list-item/intro__list-item.css);
 .intro {
-	padding-top: 92px;
-	max-width: 984px;
-	margin: 0 auto;
-}	
-
-
-@media (max-width: 1024px) {
-	.intro{
-		width: 690px;
-		margin: 0 auto;
-		padding-top: 88px;
-	}
+  padding-top: 92px;
+  max-width: 984px;
+  margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-	.intro{
-		width: 720px;
-		margin: 0 auto;
-		padding-top: 88px;
-	}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .intro {
+    width: 928px;
+    padding-top: 88px;
+  }
 }
 
-@media (max-width: 320px) {
-	.intro{
-		width: 288px;
-		margin: 0 auto;
-		padding-top: 64px;
-	}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    width: 720px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .intro {
+    width: 288px;
+    padding-top: 64px;
+  }
 }

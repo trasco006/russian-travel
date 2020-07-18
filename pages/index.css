@@ -9,7 +9,6 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-
 html {
-	background-color: #2A2C2F;
+  background-color: #2A2C2F;
 }
