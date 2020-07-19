@@ -1,7 +1,7 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/__lang-link_active/header__lang-link_active.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 .header {
   display: flex;
   justify-content: space-between;
@@ -9,7 +9,7 @@
   margin: 28px auto 0;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .header {
     max-width: 928px;
   }

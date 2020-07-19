@@ -17,3 +17,9 @@
     width: 159px;
   }
 }
+
+@media (min-width: 320px) and (max-width:767px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}

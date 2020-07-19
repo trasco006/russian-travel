@@ -9,7 +9,7 @@
   padding: 0 0 24px;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .place__paragraph {
     padding: 0 0 27px;
   }
@@ -28,12 +28,6 @@
     line-height: 26px;
     width: 288px;
     margin: 0 auto;
-  }
-}
-
-@media (max-width: 320px) {
-  .place__paragraph {
-    line-height: 26px;
-    width: 288px;
+    font-size: 16px;
   }
 }
