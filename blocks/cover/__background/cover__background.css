@@ -35,6 +35,5 @@
 }
 
 .cover__background:hover::after {
-  content: '';
   background-color: rgba(42, 44, 47, 0.8);
 }
